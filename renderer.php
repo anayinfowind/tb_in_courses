@@ -124,7 +124,7 @@ class block_tb_in_courses_renderer extends plugin_renderer_base {
         foreach ($courses as $key => $course) {
             $percent = block_tb_in_courses_progress_percent($course);
 
-            if($percent == 0 || $percent == 100 || $percent == 101){
+            if ($percent == 0 || $percent == 100 || $percent == 101) {
                 continue;
             }
 
